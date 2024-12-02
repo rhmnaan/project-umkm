@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.dropdown-menu {
+    z-index: 1050; /* Atau nilai yang lebih besar */
+}
+
+.navbar {
+    overflow: visible; /* Pastikan tidak tersembunyi */
+}
+
+.navbar {
+    position: relative;
+    z-index: 1; /* Tambahkan jika diperlukan */
+}
+
+.dropdown-menu {
+    margin-right: 30px; /* Sesuaikan nilai jarak di sini */
+    margin-left: auto;  /* Agar dropdown tetap rata kanan */
+}
